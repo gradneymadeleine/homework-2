@@ -9,6 +9,11 @@ import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { ProfilePage } from '../pages/Profile/profile';
+import { StudioPage } from '../pages/studio/studio';
+import { ProductsPage } from '../pages/products/products';
+import { CeramicPage } from '../pages/ceramic/ceramic';
+import { GlassPage } from '../pages/glass/glass';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +21,11 @@ import { ProfilePage } from '../pages/Profile/profile';
     HomePage,
     LoginPage,
     RegisterPage,
-    ProfilePage
+    ProfilePage,
+    StudioPage,
+    ProductsPage,
+    CeramicPage,
+    GlassPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +37,11 @@ import { ProfilePage } from '../pages/Profile/profile';
     HomePage,
     LoginPage,
     RegisterPage,
-    ProfilePage
+    ProfilePage,
+    StudioPage,
+    ProductsPage,
+    CeramicPage,
+    GlassPage
   ],
   providers: [
     StatusBar,
