@@ -10,11 +10,8 @@
 
     <ion-list inset>
         <ion-card>
-            <img src=" " />
+            <ion-img src="https://www.facebook.com/photo.php?fbid=1831822180432367&l=e9d9f29d4e"></ion-img>
             <ion-card-content>
-                <ion-card-title>
-                    Profile pic
-                </ion-card-title>
             </ion-card-content>
         </ion-card>
        
@@ -45,6 +42,7 @@
         <ion-item>
             <ion-label>Username</ion-label>
             <ion-input type="text"></ion-input>
+           >
         </ion-item>
 
        
@@ -52,7 +50,8 @@
     </ion-list>
 
     <div padding>
-            <button ion-item (click)="navigateToStudio(item)">
-            </button> 
+        
+            <button ion-button round (click)="navigateToProducts()">Produts Page </button>
+            <button ion-button round (click)="navigateToHome"> Logout </button>
     </div>
 </ion-content>

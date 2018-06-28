@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import {HomePage} from '../home/home';
+import {ProductsPage} from '../products/products';
 
 @Component({
   selector: 'page-home',
@@ -13,6 +14,11 @@ export class ProfilePage {
   navigateToHome() {
     console.log("Navigating...");
     this.navCtrl.push(HomePage);
+    }
+    
+  navigateToProducts() {
+    console.log("Navigating...");
+    this.navCtrl.push(ProductsPage);
     }
  
  }
